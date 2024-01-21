@@ -1,19 +1,12 @@
-package BasicOOPS;
+package Abstract;
 
-public class Student {
-	private String name;
-	private int enrollmentNumber;
-	public void setName(String candidate) {
-		this.name=candidate;
+public class Student{
+	void display() {
+		System.out.println("This is OOPS");
 	}
-	public void setEnroll(int roll) {
-		this.enrollmentNumber=roll;
+	public static void main(String args[] ){
+		Student st=new  Student();
+		st.display();
+		
 	}
-	public void intro() {
-	System.out.print(name);
-	System.out.print("  ");
-	System.out.println(enrollmentNumber);
-	}
-	
-
 }
