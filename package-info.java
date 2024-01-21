@@ -1,1 +1,1 @@
-package OOPS;
+package Inheritence;
