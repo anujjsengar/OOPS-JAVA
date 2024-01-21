@@ -1,1 +1,1 @@
-package Inheritence;
+package BasicOOPS;
